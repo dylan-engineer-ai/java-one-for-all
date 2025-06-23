@@ -3,9 +3,10 @@ package academy.devdojo.javaoneforall.introduction;
 public class Class02PrimitiveTypes {
     public static void main(String[] args){
         // int, double, float, boolean, char, byte, short, long
-        int age = 10;
-        long bigNumber = 10000;
-        float salaryFloat = 2500.0F;
+        // cast
+        int age = (int) 10000000000L;
+        long bigNumber = (long) 135.43D;
+        float salaryFloat = (float) 2500.0D;
         double salaryDouble = 5000.0D;
         boolean trueValue = true;
         boolean falseValue = false;
