@@ -14,6 +14,8 @@ public class Class02PrimitiveTypes {
         byte ageByte = -128;
         char character = 'W';
         char characterAscii = '\u0040';
+        String name = "m4ver1ck";
         System.out.println("The age is "+age+" years old");
+        System.out.println("Hi, I am " + name);
     }
 }
