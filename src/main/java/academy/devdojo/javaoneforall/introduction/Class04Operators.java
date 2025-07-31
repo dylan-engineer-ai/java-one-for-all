@@ -34,7 +34,15 @@ public class Class04Operators {
         boolean isLegalOlderThanThirdy = age >= 30 && salary >= 4612;
         boolean isLegalYoungerThaThirdy = age <= 30 && salary >= 3381;
 
-        System.out.println("isLegalOlderThanThirdy" + isLegalOlderThanThirdy);
-        System.out.println("isLegalYoungerThaThirdy" + isLegalYoungerThaThirdy);
+        System.out.println("isLegalOlderThanThirdy " + isLegalOlderThanThirdy);
+        System.out.println("isLegalYoungerThaThirdy " + isLegalYoungerThaThirdy);
+
+        double currentAccount = 299;
+        double savingsAccount = 3000;
+        float playstationFivePrice = 500;
+        boolean canBeBought = currentAccount > playstationFivePrice || savingsAccount > playstationFivePrice;
+
+        System.out.println("canBeBoughta " + canBeBought);
+
     }
 }
