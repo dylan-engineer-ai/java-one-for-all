@@ -26,5 +26,15 @@ public class Class04Operators {
         System.out.println("isTenGreaterOrEqualsThanTwenty " + isTenGreaterOrEqualsThanTwenty);
         System.out.println("isTenDifferentThanTwenty " + isTenDifferentThanTwenty);
         System.out.println("isTenEqualsTwenty " + isTenEqualsTwenty);
+
+        // && AND  || OR  ! not
+
+        int age = 35;
+        float salary = 3500F;
+        boolean isLegalOlderThanThirdy = age >= 30 && salary >= 4612;
+        boolean isLegalYoungerThaThirdy = age <= 30 && salary >= 3381;
+
+        System.out.println("isLegalOlderThanThirdy" + isLegalOlderThanThirdy);
+        System.out.println("isLegalYoungerThaThirdy" + isLegalYoungerThaThirdy);
     }
 }
