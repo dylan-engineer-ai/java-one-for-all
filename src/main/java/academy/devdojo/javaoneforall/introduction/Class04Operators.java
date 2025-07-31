@@ -44,5 +44,26 @@ public class Class04Operators {
 
         System.out.println("canBeBoughta " + canBeBought);
 
+        // = += -= *= /= %=
+        double bonus = 1800;
+        bonus = bonus + 2000;
+        bonus += 12; //  bonus = bonus + 12;
+        bonus -= 12; //  bonus = bonus - 12;
+        bonus *= 2; //  bonus = bonus * 12;
+        bonus /= 2; //  bonus = bonus / 12;
+        bonus %= 2; //  bonus = bonus % 12;
+        System.out.println(bonus);
+
+        // Unary ++ --
+        int count = 0;
+        count += 1;
+        count++;
+        count--;
+        --count;
+        ++count;
+        System.out.println(count);
+
+
+
     }
 }
