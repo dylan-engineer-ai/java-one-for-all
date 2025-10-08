@@ -8,6 +8,7 @@ public class Class08MultidimensionalArrays02 {
         array[1] = numbers;
         array[2] = new int[]{1,2,3,4,5,6};
 
+        int[][] array2 = {{1,2,3,4}, {1,2}};
         for (int[] baseArray: array) {
             System.out.println("\n---------------------");
             for (int num: baseArray) {
