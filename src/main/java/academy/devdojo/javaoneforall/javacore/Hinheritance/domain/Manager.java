@@ -7,7 +7,13 @@ public class Manager extends Employee  {
     public void print(){
         super.print();
         System.out.println(this.department);
+        paymentReport();
     };
+
+    public void paymentReport(){
+        System.out.println("The employee " + this.name + " From the department "+this.department+
+                " received a salary of " + this.salary);
+    }
 
     public String getDepartment() {
         return department;
